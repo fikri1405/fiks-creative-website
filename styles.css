@@ -33,4 +33,12 @@
 @media(max-width:900px){.problem-section .problem{grid-template-columns:1fr;gap:34px}.problem-section .solution{grid-template-columns:1fr;gap:20px}.problem-section .solution button{justify-self:start}}
 @media(max-width:600px){.services-section,.problem-section{padding-top:72px;padding-bottom:72px}.problem-section .display{font-size:43px}.problem-section .solution{margin-top:38px;padding:28px}}
 .header{border-bottom:0}
+
+/* Improve problem-section readability */
+.problem-section>.label{font-size:12px;letter-spacing:2.2px}
+.problem-section .list p{display:grid;grid-template-columns:42px 1fr;align-items:center;column-gap:4px;font-size:18px;line-height:1.45;padding:18px 0}
+.problem-section .list span{font-size:12px;font-weight:700;line-height:1;margin-right:0;color:#765f52}
+.problem-section .solution small{font-size:13px;font-weight:700;line-height:1.4}
+.problem-section .solution>p{font-size:17px;line-height:1.6}
+@media(max-width:600px){.problem-section>.label{font-size:11px}.problem-section .list p{grid-template-columns:38px 1fr;font-size:17px}.problem-section .list span{font-size:11px}.problem-section .solution small{font-size:12px}.problem-section .solution>p{font-size:16px}}
 @keyframes move{to{transform:translateX(-45%)}}@keyframes drop{from{transform:translateY(-100%)}}
